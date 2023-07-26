@@ -7,7 +7,7 @@ namespace pattern_sample.repository.dev
         pero al tratarse de clases diferentes tanto UsersDev como UsersTraining pueden implmeentar estos metodos de manera diferente 
         mientras estos cumplan con los resultados esperados por el contrato
      */
-    public class UsersDev : UsersBase
+    internal class UsersDev : UsersBase
     {
 
         public override void metodo_1()

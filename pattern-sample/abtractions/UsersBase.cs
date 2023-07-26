@@ -18,7 +18,7 @@ namespace pattern_sample.abtractions
     * a su vez usamos esta interfaz sobre una clase abstracta que implementa de forma abstracta la interfaz
     * con el motivo de que cualquier clase que herede la clase base siga con el contrato (interfaz) y asi todas contengan los mismos metodos 
      */
-    public abstract class UsersBase : IUsers
+    internal abstract class UsersBase : IUsers
     {
         public abstract void metodo_1();
         public abstract void metodo_2();
